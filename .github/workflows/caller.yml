@@ -7,7 +7,7 @@ jobs:
   job1:
     uses: RepositoriesForPoc/Resuable-Workflow-Called/.github/workflows/reusable-workflow.yml@main
     secrets:
-      envPAT: ${{ secrets.envPAT }}
+      envPAT: ${{ secrets.ENVPAT }}
 
   job2:
     runs-on: ubuntu-latest
